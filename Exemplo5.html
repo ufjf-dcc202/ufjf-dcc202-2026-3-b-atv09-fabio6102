@@ -1,0 +1,82 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 03</title>
+<link rel="stylesheet" href="estilo.css">
+    <style>
+        header, footer{
+            background-color: rgb(0, 132, 141);
+        }
+        section{
+            background-color: antiquewhite;
+        }
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            border: 1px solid blue;
+            background-color: lightblue;
+            padding: 0.1em;
+        }
+        nav{
+            background-color: chartreuse;
+        }
+        .holy-grail{
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            grid-template-columns: auto 1fr auto;
+        }
+        .holy-grail > header{
+        grid-column: 1/4;
+        }
+       .holy-grail > footer{
+        grid-column: 1/4;
+        }
+       .holy-grail > section{
+        display: grid;
+        }                
+    </style>
+</head>
+<body>
+    <main>
+
+        <article class="holy-grail">
+        <header>
+            <h1>Exemplo 05: Holy Grail/h1>
+        </header>    
+        <nav>
+            <ul>
+                <li>Primeiro</li>
+                <li>Segundo</li>
+                <li>Terceiro</li>
+                <li>Quarto</li>
+                <li>Quinto</li>
+            </ul>            
+        </nav>
+            <section>
+                <h2>Texto</h2>
+                <p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, eum laborum! Vero dolorem blanditiis provident consequuntur architecto consequatur sunt, animi, sequi reiciendis ut illo veritatis debitis ipsam repellat quis eos.</p>
+                    <p>Illo, repudiandae officia reiciendis nobis reprehenderit voluptatibus voluptas at ab cupiditate, molestiae, soluta veniam necessitatibus animi pariatur dicta iure. Dolorum nam molestias, quos repellat minima totam incidunt hic laudantium officiis?</p>
+                    <p>Quibusdam accusantium labore corrupti, nostrum ut tempora esse laboriosam pariatur ullam at numquam. Officia, enim magni. Necessitatibus voluptas vel ipsa qui ratione molestias voluptate aperiam deleniti vitae dolor, eos vero.</p>
+                </p>
+            </section>
+            <aside>
+            <ul>
+                <li>Primeiro</li>
+                <li>Segundo</li>
+                <li>Terceiro</li>
+                <li>Quarto</li>
+                <li>Quinto</li>
+            </ul>
+            </aside>
+        <footer>
+            &COPY; 2026 - DCC202 - UFJF
+        </footer>            
+        </article>
+    </main>
+</body>
+</html>
